@@ -1,0 +1,132 @@
+.body{
+  font-family: ‘Open Sans’, sans-serif; 
+  font-weight: 300; 
+  text-align: center;
+  margin: 0 !important;
+  line-height: 0;
+  padding: 0;
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+  max-width: 785px;
+  margin-inline: auto;
+}
+h1 {
+  color: #6a0;
+}
+.stroki{
+  margin-bottom: 60px;
+  color: #9b0e49;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: left;
+}
+.list{
+  color:#9b0e49;;
+  font-size: 30px; 
+  line-height: 40px;
+  padding: 0px;
+}
+body {
+  font-family: sans-serif;
+}
+.wrapper{
+  width: fit-content;
+  margin-inline: auto;
+}
+a{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #421426;
+  border: 2px solid #421426;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  border-radius: 6px;
+}
+
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #421426;
+  transition: all .35s;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:hover span{
+  color: #916161;
+}
+
+a:hover:after{
+  width: 100%;
+}
+html{
+	min-height: 100%;
+	}
+body {
+  background: 
+		linear-gradient(180deg, rgba(199, 115, 170, 0) 20%, rgba(235, 139, 248, 0.1) 20%, rgba(248, 184, 139,.1) 40%, rgba(248, 184, 139,.2) 40%, rgba(248, 139, 224, 0.2) 60%, rgba(248, 184, 139,.4) 60%, rgba(248, 184, 139,.4) 80%, rgba(248, 184, 139,.5) 80%),
+    linear-gradient(45deg, rgba(163, 91, 155, 0.3) 20%, rgba(250, 132, 240, 0.4) 20%, rgba(250, 132, 193, 0.4) 40%, rgba(250, 248, 132,.5) 40%, rgba(250, 132, 213, 0.5) 60%, rgba(250, 132, 185, 0.6) 60%, rgba(250, 132, 232, 0.6) 80%, rgba(215, 132, 250, 0.7) 80%),
+    linear-gradient(-45deg, rgba(231, 145, 237, 0) 20%, rgba(215, 145, 237, 0.1) 20%, rgba(237, 145, 225, 0.1) 40%, rgba(186, 237, 145,.2) 40%, rgba(186, 237, 145,.2) 60%, rgba(186, 237, 145,.4) 60%, rgba(186, 237, 145,.4) 80%, rgba(237, 145, 189, 0.6) 80%),
+		linear-gradient(90deg, rgba(178, 206, 254,0) 20%, rgba(124, 152, 201, 0.3) 20%, rgba(178, 206, 254,.3) 40%, rgba(254, 178, 203, 0.5) 40%, rgba(254, 178, 219, 0.5) 60%, rgba(178, 206, 254,.7) 60%, rgba(178, 206, 254,.7) 80%, rgba(254, 178, 178, 0.8) 80%),
+    linear-gradient(-90deg, rgba(242, 162, 232,0) 20%, rgba(242, 162, 232,.4) 20%, rgba(161, 110, 155, 0.4) 40%, rgba(242, 162, 232,.5) 40%, rgba(242, 162, 232,.5) 60%, rgba(242, 162, 232,.6) 60%, rgba(242, 162, 232,.6) 80%, rgba(242, 162, 232,.8) 80%),
+    linear-gradient(180deg, rgba(254, 163, 236, 0) 20%, rgba(254, 163, 170,.4) 20%, rgba(254, 163, 170,.4) 40%, rgba(254, 163, 170,.6) 40%, rgba(254, 163, 170,.6) 60%, rgba(254, 163, 170,.8) 60%, rgba(254, 163, 170,.8) 80%, rgba(254, 163, 170,.9) 80%);
+	background-color: rgb(254, 163, 170);
+	background-size: 100% 100%;
+  margin: 0;
+}
+
+.one{
+  margin-bottom: 60px;
+}
+.one h1 {
+  font-family: ‘Open Sans’, sans-serif; 
+  position: relative;
+  color: #8a1880; 
+  display: inline-block;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  font-size: 3em;
+  padding: 11px 60px;
+  margin: 0; 
+  line-height: 1;
+}
+.one h1:before, .one h1:after {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  background: repeating-linear-gradient(180deg, transparent, transparent 2px, #d43cd9 2px, #d43cd9 4px);
+}
+.one h1:before {left: 0;}
+.one h1:after {right: 0;}
+  @media (max-width: 420px) {
+  .one h1 {font-size: 2em;}
+}
+
+footer {
+  display: flex;
+  gap: 20px;
+}
